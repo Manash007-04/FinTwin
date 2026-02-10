@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+venv/
+__pycache__/
+*.pyc
+
+# Environment
+.env
+*.env.local
+
+# Build outputs
+.next/
+out/
+dist/
+build/
+
+# Mobile
+mobile/.expo/
+mobile/android/
+mobile/ios/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Git inside mobile (nested)
+mobile/.git/
